@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+} */
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+header {
+    
+    background-color: #939fff;  /* Dark background */
+    color: #00ffcc;  /* Neon-like text color */
+    padding: 20px;
+    text-align: center;
+    border-bottom: 2px solid #00ffcc;  /* Accent color */
+}
+
+
+header h1 {
+color: #000000;
+    font-family: 'Roboto', sans-serif;
+    color: #;
+    font-size: 2.5em;
+    margin: 0;
+}
+
+header p {
+color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2em;
+    margin: 5px 0;
+}
+
+.contact-info p {
+    font-size: 1.1em;
+    color: #ffffff;  /* White text for normal contact info */
+}
+
+.contact-info a {
+    color: #000000;  /* Contrast color for email and phone */
+    text-decoration: none;  /* Remove underline */
+}
+
+.contact-info a:hover {
+    color: #333fff;  /* Lighter hover effect */
+}
+
+/* Body text general styles */
+body {
+    background-image:url('Header_BG2.webp'); 
+    background-attachment: fixed;
+    background-color: #000;  /* Dark background for body */
+    color: #d3d3d3;  /* Light grey text for readability */
+    font-family: 'Arial', sans-serif;
+}
+
+section {
+    padding: 20px;
+    margin: 20px 0;
+    background-color: #fff; 
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    margin-bottom: 15px;
+    color: #333;
+    font-size: 1.8rem;
+}
+
+ul {
+    list-style-type: none;
+    color: #333;
+}
+
+ul li {
+    padding: 10px 0;
+    font-size: 1.1rem;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
